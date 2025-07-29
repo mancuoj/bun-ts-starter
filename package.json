@@ -1,11 +1,8 @@
 {
   "name": "bun-ts-starter",
+  "description": "Bun-native TypeScript library boilerplate",
   "version": "0.0.0",
   "type": "module",
-  "description": "Bun-native TypeScript library boilerplate",
-  "author": "Mancuoj <mancuoj@gmail.com>",
-  "license": "MIT",
-  "repository": "mancuoj/bun-ts-starter",
   "files": [
     "dist"
   ],
@@ -19,6 +16,9 @@
       }
     }
   },
+  "author": "Mancuoj <mancuoj@gmail.com>",
+  "license": "MIT",
+  "repository": "mancuoj/bun-ts-starter",
   "scripts": {
     "build": "bunup",
     "dev": "bunup --watch",
