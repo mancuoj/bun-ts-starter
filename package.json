@@ -23,19 +23,19 @@
     "build": "bunup",
     "dev": "bunup --watch",
     "tsc": "tsc --noEmit",
-    "format": "prettier -w .",
     "test": "bun test",
     "test:watch": "bun test --watch",
     "test:coverage": "bun test --coverage",
-    "release": "bumpp && bun publish --access public"
+    "release": "bumpp && bun publish --access public",
+    "format": "prettier -w ."
   },
   "devDependencies": {
-    "@types/bun": "latest",
+    "@mancuoj/prettier-config": "^0.5.3",
+    "@types/bun": "^1.2.19",
     "bumpp": "^10.2.0",
     "bunup": "^0.8.71",
-    "typescript": "^5.8.3",
-    "@mancuoj/prettier-config": "latest",
-    "prettier": "latest"
+    "prettier": "^3.6.2",
+    "typescript": "^5.8.3"
   },
   "prettier": "@mancuoj/prettier-config"
 }
